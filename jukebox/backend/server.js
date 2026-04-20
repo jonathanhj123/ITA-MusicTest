@@ -68,4 +68,4 @@ async function searchSongs(request, response) {
   response.json(dbResult.rows);
 }
 
-async function Dickhead(request, response) {}
+async function Gangsta(request, response) {}
