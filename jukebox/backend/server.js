@@ -11,6 +11,7 @@ server.use(onEachRequest);
 
 server.get("/api/songs", getAllSongs);
 server.get("/api/songs/search", searchSongs);
+server.get("/api/searchSong", searchSongs);
 
 server.listen(port, onServerReady);
 
